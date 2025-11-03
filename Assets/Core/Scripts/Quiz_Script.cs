@@ -24,12 +24,13 @@ public class Quiz_Script : MonoBehaviour
     private float closingIn;
     private int questionIndex;
     private string result = string.Empty;
+    private List<QuestionEntry> relevantQuestions;
 
     /// <summary>
     /// Get/Set property for "language" option
     /// </summary>
-    public LanguageOptions Language 
-    { 
+    public LanguageOptions Language
+    {
 
         get
         {
@@ -45,12 +46,12 @@ public class Quiz_Script : MonoBehaviour
     /// <summary>
     /// Get/Set property for "difficulty" option
     /// </summary>
-    public QuizDifficulty Difficulty 
-    { 
+    public QuizDifficulty Difficulty
+    {
 
         get
         {
-            
+
             if (quizMemory != null)
                 return quizMemory.Difficulty;
 
@@ -185,44 +186,44 @@ public class Quiz_Script : MonoBehaviour
         closingQuiz = false;
         closingIn = CloseTime;
 
-        if (quiz.Questions.Count == quizMemory.previousQuestions.Count) //Resets memory if all questions have been answered 
+        if (relevantQuestions.Count == quizMemory.previousQuestions.Count) //Resets memory if all questions have been answered 
             quizMemory.previousQuestions.Clear();
 
         do
         {
 
-            questionIndex = Random.Range(0, quiz.Questions.Count); //Gives a random index number inside bounds
+            questionIndex = Random.Range(0, relevantQuestions.Count); //Gives a random index number inside bounds
 
         } while (quizMemory.previousQuestions.Contains(questionIndex)); //Loops until a new index is found
         quizMemory.previousQuestions.Add(questionIndex); //Adds int so question can be skipped in favor of others
 
         //Displays question and related answers on label and buttons
-        if (quiz.Questions[questionIndex].Picture != null && quiz.Questions[questionIndex].displayBoth)
+        if (relevantQuestions[questionIndex].Picture != null && relevantQuestions[questionIndex].displayBoth)
         {
 
-            picture.style.backgroundImage = new StyleBackground(quiz.Questions[questionIndex].Picture);
-            question.text = quiz.Questions[questionIndex].Question;
+            picture.style.backgroundImage = new StyleBackground(relevantQuestions[questionIndex].Picture);
+            question.text = relevantQuestions[questionIndex].Question;
 
         }
-        else if (quiz.Questions[questionIndex].Picture != null)
+        else if (relevantQuestions[questionIndex].Picture != null)
         {
 
             question.text = string.Empty;
-            picture.style.backgroundImage = new StyleBackground(quiz.Questions[questionIndex].Picture);
+            picture.style.backgroundImage = new StyleBackground(relevantQuestions[questionIndex].Picture);
 
         }
         else
         {
 
-            question.text = quiz.Questions[questionIndex].Question;
+            question.text = relevantQuestions[questionIndex].Question;
             picture.style.backgroundImage = new StyleBackground();
 
         }
-        option1.text = quiz.Questions[questionIndex].Answers[(int)QuestionOptions.Option1];
-        option2.text = quiz.Questions[questionIndex].Answers[(int)QuestionOptions.Option2];
-        option3.text = quiz.Questions[questionIndex].Answers[(int)QuestionOptions.Option3];
+        option1.text = relevantQuestions[questionIndex].Answers[(int)QuestionOptions.Option1];
+        option2.text = relevantQuestions[questionIndex].Answers[(int)QuestionOptions.Option2];
+        option3.text = relevantQuestions[questionIndex].Answers[(int)QuestionOptions.Option3];
 
-        switch (quiz.Questions[questionIndex].CorrectAnswer) //Assigns actions to buttons dependant on "CorrectAnswer", which is Option# minus 1 to account for 0-indexation
+        switch (relevantQuestions[questionIndex].CorrectAnswer) //Assigns actions to buttons dependant on "CorrectAnswer", which is Option# minus 1 to account for 0-indexation
         {
             case 0:
                 option1.clicked += CorrectAnswer;
@@ -251,7 +252,7 @@ public class Quiz_Script : MonoBehaviour
     private void DisableButtons()
     {
 
-        switch (quiz.Questions[questionIndex].CorrectAnswer) //Unassigns actions from buttons in same manner as they were assigned
+        switch (relevantQuestions[questionIndex].CorrectAnswer) //Unassigns actions from buttons in same manner as they were assigned
         {
             case 0:
                 option1.clicked -= CorrectAnswer;
@@ -311,7 +312,7 @@ public class Quiz_Script : MonoBehaviour
                     Debug.Log("Multiple same language and difficulty quizs");
 
             }
-             
+
         }
 
         if (quizs.TryGetValue((Language, Difficulty), out Quiz_SO foundQuiz))
@@ -328,6 +329,13 @@ public class Quiz_Script : MonoBehaviour
                 Debug.Log("No quizs found");
 
         }
+
+        List<QuestionEntry> list = quiz.Questions.FindAll(x => x.associatedMap == quizMemory.CurrentMap);
+
+        if (list.Count > 0)
+            relevantQuestions = list;
+        else
+            relevantQuestions = quiz.Questions;
 
     }
 

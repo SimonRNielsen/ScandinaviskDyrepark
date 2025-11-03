@@ -31,6 +31,8 @@ public class QuestionEntry
 
     #region Fields
 
+    [SerializeField, Tooltip("Associated map for question")] public MapAssociation associatedMap;
+    [Space]
     [SerializeField, TextArea, Tooltip("Type in the question")] private string question;
     [Space]
     [SerializeField, Tooltip("Type in 3 different answering options")] private AnswerArray answers = new AnswerArray();
