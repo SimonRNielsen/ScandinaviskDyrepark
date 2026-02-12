@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/HUD.unity
     guid: 8074f24c2a72e3c498760a982dc33d1e
   - enabled: 1
+    path: Assets/Scenes/HUDs/DeerHUD.unity
+    guid: dbf09b725d392d74783c42ff6c0e7d22
+  - enabled: 1
     path: Assets/Scenes/QuizScene.unity
     guid: 56d8bb4b49d381c42a15b28852068406
   - enabled: 1

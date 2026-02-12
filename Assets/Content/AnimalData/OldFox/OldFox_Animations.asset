@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171049449d9946d438d3aac59b2a72b6, type: 3}
+  m_Name: OldFox_Animations
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalAnimations
+  Running: {fileID: 7400000, guid: a17f02115694f644eb2596a21f2033cb, type: 2}
+  Jumping: {fileID: 7400000, guid: b0babdbb168f93b4a98fcd1b8103244d, type: 2}
+  Flying: {fileID: 7400000, guid: 0140df6e3cf1a854199c79090f9ddf64, type: 2}
+  Falling: {fileID: 7400000, guid: 58e65c43de78fde4a8658e6171b5e411, type: 2}
+  Landing: {fileID: 7400000, guid: 01a6bfd9017a15542a035f4847299087, type: 2}
+  Sprite: {fileID: 1263449661410444649, guid: 8b25d073dc2a0894db5a7e3195a3de31, type: 3}

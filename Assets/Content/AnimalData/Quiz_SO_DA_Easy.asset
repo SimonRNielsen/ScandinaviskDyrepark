@@ -15,19 +15,138 @@ MonoBehaviour:
   Language: 0
   Difficulty: 0
   Questions:
-  - question: Virker det?
+  - associatedMap: 0
+    question: "Hvilken farve kan d\xE5dyr IKKE v\xE6re? "
     answers:
-      option1: Nej
-      option2: Ja
-      option3: Nej
+      option1: Sort
+      option2: Pink
+      option3: Brun
     correctAnswer: 1
     picture: {fileID: 0}
     displayBoth: 0
-  - question: "Spiser bj\xF8rne ost?"
+  - associatedMap: 0
+    question: "Hvad har d\xE5dyret p\xE5 hovedet?"
     answers:
-      option1: Nej
-      option2: Ja
-      option3: "Kun bl\xE5skimmel"
+      option1: En hat
+      option2: Et gevir
+      option3: "Store \xF8rer"
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 0
+    question: "Hvad spiser et d\xE5dyr?"
+    answers:
+      option1: "K\xF8d og fisk"
+      option2: "Gr\xE6s og blade"
+      option3: Kage
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 0
+    question: Hvad er ulvens livret?
+    answers:
+      option1: "Kager fra R\xF8dh\xE6tte"
+      option2: Store og tunge elefanter
+      option3: "Et l\xE6kkert lammel\xE5r"
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: Hvad siger en Ulv?
+    answers:
+      option1: "M\xE6\xE6\xE6\xE6h"
+      option2: Vov
+      option3: Auuuuuu!
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: "Hvad hj\xE6lper rensdyret med at holde varmen?"
+    answers:
+      option1: Vand og is
+      option2: "Halst\xF8rkl\xE6de"
+      option3: "Tyk pels og sm\xE5 \xF8rer"
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: Hvad spiser et rensdyr?
+    answers:
+      option1: "Planter og gr\xE6s"
+      option2: Slik og kage
+      option3: "K\xF8d"
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: Hvad bruger rensdyret sine store gevirer til?
+    answers:
+      option1: Som pynt
+      option2: Til at flyve med
+      option3: "Til at sl\xE5s og grave i sneen"
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: "Hvad spiser en hav\xF8rn helst?"
+    answers:
+      option1: Fisk
+      option2: Kage
+      option3: Majs
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: "Hvilken udsigt er hav\xF8rnens yndlings?"
+    answers:
+      option1: Havudsigt
+      option2: "Lige ind i naboens h\xE6k"
+      option3: Byudsigt
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: "Hvordan ser hav\xF8rnens hale ud?"
+    answers:
+      option1: "Bl\xE5 med striber"
+      option2: Helt hvid
+      option3: Regnbuefarvet
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: "Hvilken farve har r\xE6ven normalt?"
+    answers:
+      option1: "R\xF8d"
+      option2: Sort
+      option3: "Gr\xF8n"
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: "Hvilken farve har r\xE6ven normalt?"
+    answers:
+      option1: I havet
+      option2: I skoven
+      option3: "I \xF8rkenen"
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: "Hvad spiser r\xE6ven gerne?"
+    answers:
+      option1: Kage
+      option2: Mus
+      option3: Blomster
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: "Hvad g\xF8r ulven n\xE5r den vil snakke med de andre ulve? "
+    answers:
+      option1: Den hopper
+      option2: Den hyler
+      option3: Den danser
     correctAnswer: 1
     picture: {fileID: 0}
     displayBoth: 0

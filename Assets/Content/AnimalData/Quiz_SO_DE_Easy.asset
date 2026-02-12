@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da34376b960570e419fe860c43c66b22, type: 3}
+  m_Name: Quiz_SO_DE_Easy
+  m_EditorClassIdentifier: Assembly-CSharp::Quiz_SO
+  Language: 2
+  Difficulty: 0
+  Questions:
+  - associatedMap: 0
+    question: 'Welche Farbe kann ein Damhirsch nicht haben?
+
+'
+    answers:
+      option1: 'Schwarz '
+      option2: 'Rosa '
+      option3: Braun
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 0
+    question: 'Was frisst ein Damhirsch?
+
+      
+
+'
+    answers:
+      option1: Fleisch und Fisch
+      option2: "Gras und Bl\xE4tter "
+      option3: Kuchen
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 0
+    question: Was hat der Damhirsch auf dem Kopf?
+    answers:
+      option1: Einen Hut
+      option2: 'Ein Geweih '
+      option3: "Gro\xDFe Ohren"
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: Welche Farbe hat der Fuchs normalerweise?
+    answers:
+      option1: Rot
+      option2: Schwarz
+      option3: "Gr\xFCn"
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: Wo wohnt der Fuchs am liebsten?
+    answers:
+      option1: Im Meer
+      option2: 'Im Wald '
+      option3: "In der W\xFCste"
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: Was frisst der Fuchs gerne?
+    answers:
+      option1: Kuchen
+      option2: "M\xE4use"
+      option3: Blumen
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: Was frisst ein Seeadler am liebsten?
+    answers:
+      option1: Fisch
+      option2: Kuchen
+      option3: Mais
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: Welche Aussicht mag der Seeadler am liebsten?
+    answers:
+      option1: Meerblick
+      option2: Direkt neben der Nachbarhecke
+      option3: Stadtblick
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: Wie sieht der Schwanz des Seeadlers aus?
+    answers:
+      option1: Blau mit Streifen
+      option2: "Ganz wei\xDF "
+      option3: Regenbogenfarben
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: Was sagt ein Wolf?
+    answers:
+      option1: "M\xE4\xE4\xE4\xE4h"
+      option2: Wuff
+      option3: Auuuuuu!
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: Was isst der Wolf gerne?
+    answers:
+      option1: Kuchen aus der Radtour
+      option2: "Gro\xDFe und starke Elefanten"
+      option3: 'Ein leckeres Lammfilet '
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: "Wie l\xE4uft der Wolf, wenn er mit anderen W\xF6lfen redet?"
+    answers:
+      option1: Er springt
+      option2: 'Er heult '
+      option3: Er tanzt
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: Was hilft dem Rentier, sich warm zu halten?
+    answers:
+      option1: Wasser und Eis
+      option2: Schal
+      option3: 'Dickes Fell und Schneehaare '
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: Was frisst ein Rentier?
+    answers:
+      option1: 'Pflanzen und Gras '
+      option2: "S\xFC\xDFigkeiten und Kuchen"
+      option3: Fleisch
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: "Wof\xFCr benutzt das Rentier seine gro\xDFen Geweihe?"
+    answers:
+      option1: Zum Angeben
+      option2: Zum Fliegen
+      option3: 'Zum Graben im Schnee '
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0

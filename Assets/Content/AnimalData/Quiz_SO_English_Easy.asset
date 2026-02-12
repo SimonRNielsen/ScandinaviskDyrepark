@@ -15,11 +15,138 @@ MonoBehaviour:
   Language: 1
   Difficulty: 0
   Questions:
-  - question: Is a brown bear green?
+  - associatedMap: 0
+    question: What color can a fallow deer NOT be?
     answers:
-      option1: No it is blue
-      option2: No it is brown
-      option3: Yes for sure!
+      option1: Black
+      option2: Pink
+      option3: Brown
     correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 0
+    question: What does a fallow deer eat?
+    answers:
+      option1: Meat and fish
+      option2: 'Grass and leaves '
+      option3: Cake
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 0
+    question: What does the fallow deer have on its head?
+    answers:
+      option1: A hat
+      option2: Antlers
+      option3: Big ears
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: What color is a fox normally?
+    answers:
+      option1: Red
+      option2: Black
+      option3: Green
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: Where does the fox like to live?
+    answers:
+      option1: In the sea
+      option2: 'In the forest '
+      option3: In the desert
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 1
+    question: What does the fox like to eat?
+    answers:
+      option1: Cake
+      option2: Mice
+      option3: Flowers
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: What does a sea eagle like to eat the most?
+    answers:
+      option1: Fish
+      option2: Cake
+      option3: Corn
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: "What is the sea eagle\u2019s favorite view?"
+    answers:
+      option1: 'Sea view '
+      option2: "Right next to the neighbor\u2019s hedge"
+      option3: City view
+    correctAnswer: 0
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 2
+    question: "What does the sea eagle\u2019s tail look like?"
+    answers:
+      option1: Blue with stripes
+      option2: 'Pure white '
+      option3: Rainbow-colored
+    correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: What does a wolf say?
+    answers:
+      option1: Maaaah
+      option2: Woof
+      option3: Auuuuuuu!
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: What does the wolf like to eat?
+    answers:
+      option1: Cakes from the bike ride
+      option2: Big and strong elephants
+      option3: 'A tasty lamb steak '
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 3
+    question: How does the wolf move when talking to other wolves?
+    answers:
+      option1: It jumps
+      option2: 'It howls '
+      option3: It dances
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: What helps the reindeer stay warm?
+    answers:
+      option1: Water and ice
+      option2: Scarf
+      option3: 'Thick fur and small snow hairs '
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: What does a reindeer eat?
+    answers:
+      option1: 'Plants and grass '
+      option2: Candy and cake
+      option3: Meat
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - associatedMap: 4
+    question: What does the reindeer use its big antlers for?
+    answers:
+      option1: To show off
+      option2: To fly
+      option3: 'To dig in the snow '
+    correctAnswer: 2
     picture: {fileID: 0}
     displayBoth: 0

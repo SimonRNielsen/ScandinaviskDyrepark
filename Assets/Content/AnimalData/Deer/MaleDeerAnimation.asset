@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171049449d9946d438d3aac59b2a72b6, type: 3}
+  m_Name: MaleDeerAnimation
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalAnimations
+  Running: {fileID: 7400000, guid: 2efcb1b33a7ad734297e66165aa91899, type: 2}
+  Jumping: {fileID: 7400000, guid: 34c5ba1f0fd4bf34aaeb17a3b20b7e91, type: 2}
+  Flying: {fileID: 0}
+  Falling: {fileID: 7400000, guid: a6c265fed59ab9242b9b2520860c83ac, type: 2}
+  Landing: {fileID: 7400000, guid: 7a2ecb92d369e464a88ef27bbe1b1dab, type: 2}
+  Sprite: {fileID: -3014305175352203594, guid: 422c6cdf99181794c98e372a4b84d8f3, type: 3}

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8195669831442480055
+--- !u!1001 &226027775936244335
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,19 +11,11 @@ PrefabInstance:
     - target: {fileID: -8813308410863859316, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: animations
       value: 
-      objectReference: {fileID: 11400000, guid: 70df06651461b4840886c8893e7d0277, type: 2}
+      objectReference: {fileID: 11400000, guid: 31ddda8e3323cca45b0614ddd6d9d9df, type: 2}
     - target: {fileID: -3716716054708741472, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
-      propertyPath: soundEffectLength
-      value: 3
+      propertyPath: associatedMap
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 155875450692361694, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 34d9e0ea1c1cbc74d9d8d634e73c152d, type: 3}
-    - target: {fileID: 1400582637076660708, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
-      propertyPath: animations
-      value: 
-      objectReference: {fileID: 11400000, guid: d844bd26160074b45931c51b2c9d8a60, type: 2}
     - target: {fileID: 2383886569871659290, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_Name
       value: Fox
@@ -70,11 +62,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_Size.x
-      value: 0.25
+      value: 1.96875
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_Size.y
-      value: 0.25
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -86,19 +82,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 0.22
+      value: 1.96875
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 0.17
+      value: 0.875
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.22
+      value: 1.96875
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.17
+      value: 0.875
       objectReference: {fileID: 0}
     - target: {fileID: 5542080491418127462, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
@@ -106,16 +102,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8170788880512874629, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_Size.x
-      value: 0.22
+      value: 1.96875
       objectReference: {fileID: 0}
     - target: {fileID: 8170788880512874629, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_Size.y
-      value: 0.17
+      value: 0.875
       objectReference: {fileID: 0}
     - target: {fileID: 8170788880512874629, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1263449661410444649, guid: 8b25d073dc2a0894db5a7e3195a3de31, type: 3}
+      objectReference: {fileID: -1800644268445410421, guid: 1470f6022036da2e18401f093d806209, type: 3}
     - target: {fileID: 8170788880512874629, guid: a7f0763bc88ce3f4c82af86417994d7c, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1

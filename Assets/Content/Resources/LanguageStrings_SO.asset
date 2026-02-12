@@ -18,50 +18,50 @@ MonoBehaviour:
     english: European brown bear
     german: "Braunb\xE4r"
   - tag: DeerLevelButton
-    danish: "D\xE5dyr"
-    english: Fallow Deer
-    german: Darmhirch
+    danish: "D\xC5DYR"
+    english: FALLOW DEER
+    german: DARMHIRCH
   - tag: EagleLevelButton
-    danish: "Hav\xF8rn"
-    english: Steller's Sea eagle
-    german: Riesenseeadler
+    danish: "HAV\xD8RN"
+    english: STELLER'S SEA EAGLE
+    german: RIESENSEEADLER
   - tag: FerretLevelButton
-    danish: Ilder
-    english: European adder
-    german: "Europ\xE4ischer Iltis"
+    danish: RENSDYR
+    english: REINDEER
+    german: REN
   - tag: FoxLevelButton
-    danish: "R\xF8d r\xE6v"
-    english: Red fox
-    german: Rotfuchs
+    danish: "R\xD8D R\xC6V"
+    english: RED FOX
+    german: ROTFUCHS
   - tag: PolarBearLevelButton
     danish: "Isbj\xF8rn"
     english: Polar bear
     german: "Eisb\xE4r"
   - tag: WolfLevelButton
-    danish: Ulv
-    english: Wolf
-    german: Wolf
+    danish: ULV
+    english: WOLF
+    german: WOLF
   - tag: StartButton
-    danish: "N\xE6ste: V\xE6lg dyr"
-    english: 'Next: Choose animal '
-    german: "Weiter: W\xE4hl ein Tier"
+    danish: Start Spillet
+    english: Start Game
+    german: Spiel Starten
   - tag: LevelSelectLabel
-    danish: "V\xE6lg dyr at l\xF8be med"
-    english: Choose animal to run with
-    german: "W\xE4hl dir ein Tier zum Laufen aus"
+    danish: "V\xE6lg et Dyr"
+    english: Choose an Animal
+    german: "W\xE4hl dir ein Tier"
   - tag: PasswordTextInput
     danish: Kodeord til nye dyr
     english: Password for new animals
     german: "Code f\xFCr neue Tiere"
   - tag: GameOverLabel
-    danish: Spillet er slut
-    english: Game over
-    german: Spiel vorbei
+    danish: Spillet Er Slut
+    english: Game Over
+    german: Spiel Vorbei
   - tag: TotalCollectedLabel
     danish: 'Antal indsamlede ting:'
     english: 'Total collected items: '
     german: "Gesammelte Gegenst\xE4nde:"
   - tag: RestartButton
-    danish: Spil igen
-    english: Restart game
-    german: Nochmal spielen
+    danish: Spil Igen
+    english: Restart Game
+    german: Nochmal Spielen

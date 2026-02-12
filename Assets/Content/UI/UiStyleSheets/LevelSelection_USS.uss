@@ -1,1 +1,190 @@
-VisualElement {}
+.button-chooseanimal {
+    -unity-background-scale-mode: scale-to-fit;
+    background-position-x: center;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(255, 250, 250);
+    width: 25%;
+    height: 89%;
+    border-color: rgb(58, 68, 40);
+    background-color: rgb(77, 91, 57);
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    flex-direction: column-reverse;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    -unity-text-align: lower-center;
+    background-image: url("project://database/Assets/Content/Sprites/GUI/Frame%20E-1.png.png?fileID=2800000&guid=8a5863ed6d74d5d4b92a9853741b941b&type=3#Frame E-1.png");
+    background-size: 224px 132%;
+}
+
+.buttoncontainer {
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 118%;
+    height: 100%;
+    align-self: center;
+    flex-wrap: wrap;
+    height: 60%;
+    padding-right: 20%;
+    padding-left: 20%;
+    top: 38px;
+}
+
+#DeerLevelButton:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+#DeerLevelButton:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#FoxLevelButton:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+#FoxLevelButton:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#EagleLevelButton:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+#EagleLevelButton:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#WolfLevelButton:hover {
+    scale: 1.1 1.1 1.1;
+    rotate: 0;
+    transition-property: rotate;
+}
+
+#WolfLevelButton:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#FerretLevelButton:hover {
+    scale: 1.1 1.1 1.1;
+    rotate: 0;
+    transition-property: rotate;
+}
+
+#FerretLevelButton:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#BearLevelButton:hover {
+    scale: 1.1 1.1 1.1;
+    rotate: 0;
+    transition-property: rotate;
+}
+
+#BearLevelButton:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#PolarBearLevelButton:hover {
+    scale: 1.1 1.1 1.1;
+    rotate: 0;
+    transition-property: rotate;
+}
+
+#PolarBearLevelButton:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#VisualElement > #ButtonContainer > #DeerLevelButton > .unity-button__image {
+    background-size: 100% 100%;
+    width: 51%;
+    margin-right: 6%;
+    margin-top: 0%;
+}
+
+#VisualElement > #ButtonContainer > #FoxLevelButton > .unity-button__image {
+    width: 55%;
+    margin-right: 4%;
+    margin-top: 0%;
+}
+
+#VisualElement > #ButtonContainer > #EagleLevelButton > .unity-button__image {
+    width: 60%;
+}
+
+#VisualElement > #ButtonContainer > #WolfLevelButton > .unity-button__image {
+    width: 59%;
+}
+
+#VisualElement > #ButtonContainer > #DeerLevelButton > .unity-text-element {
+    top: auto;
+    padding-top: 4%;
+    font-size: 20%;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+#VisualElement > #ButtonContainer > #FoxLevelButton > .unity-text-element {
+    top: auto;
+    padding-top: 4%;
+    font-size: 20%;
+}
+
+#VisualElement > #ButtonContainer > #EagleLevelButton > .unity-text-element {
+    top: auto;
+    padding-top: 4%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 20%;
+    min-width: 0;
+    max-width: 80%;
+    width: 100%;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+}
+
+#VisualElement > #ButtonContainer > #WolfLevelButton > .unity-text-element {
+    top: auto;
+    padding-top: 4%;
+    font-size: 20%;
+}
+
+#VisualElement > #ButtonContainer > #FerretLevelButton > .unity-text-element {
+    top: auto;
+    padding-top: 4%;
+    font-size: 20%;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+}
+
+#VisualElement > #ButtonContainer > #BearLevelButton > .unity-text-element {
+    top: auto;
+    padding-top: 3%;
+}
+
+#VisualElement > #ButtonContainer > #PolarBearLevelButton > .unity-text-element {
+    top: auto;
+    padding-top: 3%;
+}
+
+#VisualElement > #ButtonContainer > #BearLevelButton > .unity-button__image {
+    width: 59%;
+}
+
+#VisualElement > #ButtonContainer > #PolarBearLevelButton > .unity-button__image {
+    width: 59%;
+}
+
+#VisualElement > #ButtonContainer > #FerretLevelButton > .unity-button__image {
+    width: 59%;
+}

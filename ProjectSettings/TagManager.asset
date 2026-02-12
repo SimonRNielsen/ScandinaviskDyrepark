@@ -7,6 +7,8 @@ TagManager:
   - HUD
   - Quiz
   - Collectible
+  - Ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -56,11 +58,20 @@ TagManager:
   - name: Foreground
     uniqueID: 2613143929
     locked: 0
+  - name: trees
+    uniqueID: 2327137713
+    locked: 0
+  - name: bushes
+    uniqueID: 806865849
+    locked: 0
   - name: Obstacles
     uniqueID: 210136551
     locked: 0
   - name: Player
     uniqueID: 1879931597
+    locked: 0
+  - name: In front of player
+    uniqueID: 1048168179
     locked: 0
   - name: HUD
     uniqueID: 3870776525

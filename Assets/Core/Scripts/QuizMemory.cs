@@ -2,6 +2,19 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum MapAssociation
+{
+
+    LevelOne,
+    LevelTwo,
+    LevelThree,
+    LevelFour,
+    LevelFive,
+    LevelSix,
+    LevelSeven
+
+}
+
 /// <summary>
 /// Carries persistant data for which Quiz's have been displayed
 /// </summary>
@@ -14,6 +27,8 @@ public class QuizMemory : ScriptableObject
     public Action CoinSoundTrigger;
     [SerializeField, Tooltip("Option to select language if removing user options")] private LanguageOptions language;
     [SerializeField, Tooltip("Option to select difficulty if removing user options")] private QuizDifficulty difficulty;
+
+    public MapAssociation CurrentMap { get; set; }
 
     /// <summary>
     /// Language setting and default value
