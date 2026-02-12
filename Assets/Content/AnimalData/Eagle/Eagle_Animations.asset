@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimalAnimations
   Running: {fileID: 0}
   Jumping: {fileID: 0}
-  Flying: {fileID: 7400000, guid: e25205ff7f134464c97f5cfc3ae31687, type: 2}
+  Flying: {fileID: 7400000, guid: 12d88d5360fee084f9747fce9fa8eb54, type: 2}
   Falling: {fileID: 0}
   Landing: {fileID: 0}
-  Sprite: {fileID: 3770968622880793076, guid: 19542905a3333f54e975640caa512816, type: 3}
+  Sprite: {fileID: -2180828406209275572, guid: 522989c5de6fdbd4a822a0da9f4637b8, type: 3}

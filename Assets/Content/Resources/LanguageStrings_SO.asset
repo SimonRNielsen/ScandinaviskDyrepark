@@ -42,13 +42,13 @@ MonoBehaviour:
     english: Wolf
     german: Wolf
   - tag: StartButton
-    danish: "N\xE6ste: V\xE6lg dyr"
-    english: 'Next: Choose animal '
-    german: "Weiter: W\xE4hl ein Tier"
+    danish: Start spillet
+    english: Start game
+    german: Spiel starten
   - tag: LevelSelectLabel
-    danish: "V\xE6lg dyr at l\xF8be med"
-    english: Choose animal to run with
-    german: "W\xE4hl dir ein Tier zum Laufen aus"
+    danish: "V\xE6lg et Dyr"
+    english: Choose an Animal
+    german: "W\xE4hl dir ein Tier"
   - tag: PasswordTextInput
     danish: Kodeord til nye dyr
     english: Password for new animals

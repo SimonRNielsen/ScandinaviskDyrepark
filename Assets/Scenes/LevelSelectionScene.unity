@@ -159,13 +159,13 @@ MonoBehaviour:
   UILevelName: HUD
   unappliedButtonOpacity: 0.1
   lockedButtonOpacity: 0.3
-  bearPassword: "StilleN\xE5rDerSpises"
-  deerPassword: Gevir123
-  eaglePassword: Stellers
-  ferretPassword: "S\xF8desteDyr"
-  foxPassword: MikkelTogMinTegnebog
-  polarBearPassword: "KanIkkeLideS\xE6ler"
-  wolfPassword: OdinErEnBangebuks
+  bearPassword: 
+  deerPassword: 
+  eaglePassword: 2
+  ferretPassword: 4
+  foxPassword: 1
+  polarBearPassword: 
+  wolfPassword: 3
 --- !u!114 &1190449540
 MonoBehaviour:
   m_ObjectHideFlags: 0

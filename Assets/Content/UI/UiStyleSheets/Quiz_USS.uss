@@ -1,0 +1,187 @@
+#root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-text-align: middle-center;
+}
+
+#textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#option1 {
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+#option2 {
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#option3 {
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#header {
+    position: relative;
+    width: auto;
+    height: auto;
+    align-self: center;
+    translate: 0 0;
+}
+
+#textbox {
+    position: relative;
+    width: auto;
+    height: auto;
+    align-self: center;
+    translate: 0 0;
+}
+
+#paper1 {
+    position: relative;
+    width: auto;
+    height: auto;
+    align-self: center;
+    translate: 0 0;
+}
+
+#paper2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    align-self: center;
+    translate: 0 0;
+}
+
+#paper3 {
+    position: relative;
+    width: auto;
+    height: auto;
+    align-self: center;
+    translate: 0 0;
+}
+
+#option1 {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+}
+
+#option2 {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+}
+
+#option3 {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+}
+
+#option1:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+#option1:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#option2:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+#option2:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#option3:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+#option3:active {
+    scale: 0.9 0.9 0.9;
+}
+
+#option1.wrongAnswer {
+    -unity-background-image-tint-color: rgb(255, 0, 0);
+    scale: 0.1 0.1 0.1;
+}
+
+#option2.wrongAnswer {
+    -unity-background-image-tint-color: rgb(255, 18, 0);
+}
+
+#option3.wrongAnswer {
+    -unity-background-image-tint-color: rgb(255, 0, 0);
+}

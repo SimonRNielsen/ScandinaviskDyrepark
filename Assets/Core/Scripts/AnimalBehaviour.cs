@@ -15,6 +15,10 @@ public class AnimalBehaviour : MonoBehaviour
     /*[SerializeField, Tooltip("Set same as total closing time for Quiz"), Range(1, 15)] */private float closeTime = 0.0001f;
     private bool animalSceneLoaded = false;
 
+    [Header("SFX")]
+    [SerializeField] public AudioClip jumpSound;
+    [SerializeField] public AudioClip runSound;
+
     //The jumping heigth - is public so it can bechanged in Unity
     [SerializeField, Tooltip("Jump heigth or fly heigth for birds")]
     public float heigth = 5f;
@@ -194,17 +198,26 @@ public class AnimalBehaviour : MonoBehaviour
 
     private void Jumping()
     {
-        //The Rigidbodys velocity
+        // Nulstil vertical fart først
         rb.linearVelocity = new Vector2(rb.linearVelocityX, 0f);
 
-        //Transitions to "Jumping" animation
-        animator.SetTrigger("Jump");
-        animator.SetBool("canJump", false);
+        // Spil hoppelyd, men kun hvis vi rent faktisk HAR noget at spille
+        if (SoundManager.instance != null && jumpSound != null)
+        {
+            SoundManager.instance.PlaySound(jumpSound);
+        }
 
-        //Adding force to make the jump
+        // Fortæl animatoren at vi hopper
+        if (animator != null)
+        {
+            animator.SetTrigger("Jump");
+            animator.SetBool("canJump", false);
+        }
+
+        // Giv det opad-kick
         rb.AddForce(Vector2.up * heigth, ForceMode2D.Impulse);
-
     }
+
 
     protected virtual void FixedUpdate()
     {
@@ -278,7 +291,10 @@ public class AnimalBehaviour : MonoBehaviour
             //Enables jumping animation precondition
             animator.SetBool("canJump", true);
             animator.ResetTrigger("Jump");
+            SoundManager.instance.PlaySound(runSound);
         }
+
+
     }
 
     /// <summary>
@@ -311,10 +327,11 @@ public class AnimalBehaviour : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
         }
+
     }
 
 
-
+    
 
     /// <summary>
     /// Tries to find a gameobject from the hierarchy with the HUD tag, and set the Animals hud field to the GameObject's HUDManager component. 

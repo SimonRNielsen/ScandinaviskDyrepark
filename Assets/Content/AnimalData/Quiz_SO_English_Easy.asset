@@ -15,11 +15,27 @@ MonoBehaviour:
   Language: 1
   Difficulty: 0
   Questions:
-  - question: Is a brown bear green?
+  - question: What color can a fallow deer NOT be?
     answers:
-      option1: No it is blue
-      option2: No it is brown
-      option3: Yes for sure!
+      option1: Black
+      option2: Pink
+      option3: Brown
     correctAnswer: 1
+    picture: {fileID: 0}
+    displayBoth: 0
+  - question: What do you think the brown bear does in winter?
+    answers:
+      option1: Goes skiing
+      option2: 'Builds snowmen '
+      option3: Snores and sleeps all winter long
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - question: "What is the wolf\u2019s favorite food?\r\n"
+    answers:
+      option1: 'Cakes from Little Red Riding Hood '
+      option2: 'Big and heavy elephants '
+      option3: 'A tasty lamb leg '
+    correctAnswer: 2
     picture: {fileID: 0}
     displayBoth: 0

@@ -15,19 +15,27 @@ MonoBehaviour:
   Language: 0
   Difficulty: 0
   Questions:
-  - question: Virker det?
+  - question: "Hvilken farve kan d\xE5dyr IKKE v\xE6re? "
     answers:
-      option1: Nej
-      option2: Ja
-      option3: Nej
+      option1: Sort
+      option2: Pink
+      option3: Brun
     correctAnswer: 1
     picture: {fileID: 0}
     displayBoth: 0
-  - question: "Spiser bj\xF8rne ost?"
+  - question: "Hvad tror du Brunbj\xF8rnen g\xF8r om vinteren? "
     answers:
-      option1: Nej
-      option2: Ja
-      option3: "Kun bl\xE5skimmel"
-    correctAnswer: 1
+      option1: "St\xE5r p\xE5 ski"
+      option2: "Bygger snem\xE6nd"
+      option3: Snork sover
+    correctAnswer: 2
+    picture: {fileID: 0}
+    displayBoth: 0
+  - question: Hvad er ulvens livret?
+    answers:
+      option1: "Kager fra R\xF8dh\xE6tte"
+      option2: Store og tunge elefanter
+      option3: "Et l\xE6kkert lammel\xE5r"
+    correctAnswer: 2
     picture: {fileID: 0}
     displayBoth: 0

@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class Quiz_Script : MonoBehaviour
 {
-
+    [SerializeField] private AudioClip trueAnswer;
+    [SerializeField] private AudioClip falseAnswer;
     [SerializeField, Tooltip("Array of quizs to be added, do not add more than one of each language or difficulty to a total of 9")] private Quiz_SO[] addedQuizes;
     [SerializeField, Range(-4f, 10f), Tooltip("Time to close resultwindow is 5 seconds minus this parameter to a minimum of 1 second and a maximum of 15 seconds")] private float closeTimeParameter = 0f;
     [SerializeField, Tooltip("Reward time to add"), Min(5)] private float timeReward = 5f;
@@ -131,6 +132,8 @@ public class Quiz_Script : MonoBehaviour
 
         quizMemory.CorrectAnswer?.Invoke(timeReward);
 
+        SoundManager.instance.PlaySound(trueAnswer);
+
         StartCoroutine(CloseQuiz());
 
     }
@@ -158,6 +161,8 @@ public class Quiz_Script : MonoBehaviour
         }
 
         quizMemory.CorrectAnswer?.Invoke(wrongAnswer);
+
+        SoundManager.instance.PlaySound(falseAnswer);
 
         StartCoroutine(CloseQuiz());
 

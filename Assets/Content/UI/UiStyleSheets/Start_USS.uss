@@ -1,1 +1,22 @@
-VisualElement {}
+VisualElement {
+}
+
+.flag:hover {
+    scale: 1.2 1.2 1.2;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.flag:active {
+    scale: 0.9 0.9 0.9;
+}
+
+.start:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+.start:active {
+    scale: 0.9 0.9 0.9;
+}
